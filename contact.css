@@ -1,0 +1,19 @@
+nav{
+    color: rgb(100, 3, 3);
+    padding: 2px;
+    background-color: yellow;
+
+}
+h1{
+    
+    color: lightgreen;
+    padding: 5px;
+    font-size: 50px;
+
+}
+p{
+    color: rgb(250, 248, 248);
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}

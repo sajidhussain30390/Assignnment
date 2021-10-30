@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: coral;
+    color: darkgreen;
+    cursor: calc();
+    font-size: 100px;
+    padding: 15px;
+}
+h2{
+   background-color: #eee8e0 ;
+   font-size: 70px;
+   padding: 10px;
+   text-align: center;
+   color: rgb(6, 1, 17);
+}
+nav{
+    background-color: darkgrey;
+    padding: 5px;
+    font: 1em sans-serif;
+    
+}

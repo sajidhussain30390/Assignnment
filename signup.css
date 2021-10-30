@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("bg.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+}
+nav{
+  background-color: darkkhaki;
+  padding: 5px;
+  color: #f4f4f5;
+}
+.Signup-form {
+  background-color: rgba(31, 26, 26, 0.5);
+  width: 380px;
+  height: 400px;
+  margin: 0;
+  padding: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  color: wheat;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: thistle;
+}
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #000;
+}
+.Signup-form input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 35px;
+  font-size: 18px;
+  color: white;
+}
+.Signup-form input[type="button"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: #0000ff;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.Signup-form input[type="button"]:hover {
+  background-color: rgb(19, 10, 10);
+  color: white;
+  cursor: pointer;
+}
+.Signup-form a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.Signup-form img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 50px);
+  border-radius: 50px;
+}
+
+a:hover {
+  background-color: rgba(179, 136, 136, 0.616);
+  border-radius: 50px;
+}
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+span {
+  color: white;
+  font-size: 17px;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #5f36f4;
+  font-size: 18px;
+    color: white;
+  border-radius: 50px;
+}
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #9836f4;
+  font-size: 18px;
+  color: white;
+  border-radius: 50px;
+}
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+.cancelbtn:hover {
+  background-color: rgba(179, 136, 136, 0.616);
+  border-radius: 50px;
+}
+.signupbtn:hover {
+  background-color: rgba(179, 136, 136, 0.616);
+  border-radius: 50px;
+}

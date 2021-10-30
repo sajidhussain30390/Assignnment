@@ -1,0 +1,13 @@
+nav2{
+    background-color: turquoise;
+    padding: 3px;
+    color: rgb(56, 11, 4);
+    font-size: 20px;
+}
+nav{
+    font-size: 25px;
+    color: rgb(22, 20, 19);
+    padding: 2px;
+    background-color: thistle;
+    text-decoration: rgb(22, 20, 19);
+}
